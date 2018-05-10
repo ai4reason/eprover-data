@@ -1,0 +1,1 @@
+--definitional-cnf=24 --split-aggressive --split-clauses=4 --split-reuse-defs --simul-paramod --forward-context-sr --destructive-er-aggressive --destructive-er --prefer-initial-clauses -tKBO -Ginvfreqconstmin -F1 --delete-bad-limit=150000000 -WSelectComplexG -xUseWatchlistEvo 
