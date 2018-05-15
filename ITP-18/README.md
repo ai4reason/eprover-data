@@ -19,7 +19,7 @@ For dyndec (dynamic watchlist matching with relevance inheritance, the branch ht
 
 2. Extract "trainpos" clauses from the output files. These can be used as hints on watchlist files.
   
-3. 
+3. Watchlist use: 
 * To test a static watchlist method, put hints from step 2 on to one file and add "--watchlist=$3" to the script where $3 is the watchlist file.
 * To test a dynamic watchlist method, our suggestion is to put a watchlist file of hints for each desired proof in one directory, and add "--watchlist-dir=$3" where $3 is the watchlist directory.
 * To use the matching modulo skolem symbol name feature add "--wl-normalize-skolem" as an option to the appropriate E prover binary.
