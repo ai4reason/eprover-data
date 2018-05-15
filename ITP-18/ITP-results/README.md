@@ -5,4 +5,5 @@ A list of the names of the Mizar problems used is in MIZAR_problems (and actual 
 The test set used for evaluation is in ITP_5000_test_problems.
 
 The results are in directories corresponding to tables in the paper.
+Baseline_10s is the results of the top 5 baseline strategies run on the full dataset for 10 seconds.
 
