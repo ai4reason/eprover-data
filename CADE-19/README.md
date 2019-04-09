@@ -60,7 +60,8 @@ directory (`enigma-xgboost.py` for the experiments without hashing and
 `enigma-xgboost-hashing.py` for the experiments with hashing).  Always run
 the scripts directly from the `CADE-19` directory, that is, like
 `./scripts/enigma-xgboost.py`.  The `BID` variable in the scripts must be
-set to as in the case of LIBLINEAR.
+set to as in the case of LIBLINEAR.  Additionally set the environment
+variable `OMP_NUM_THREADS` to the value `1`.
 
 ## How to run experiments with Torch ##
 
