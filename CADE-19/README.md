@@ -72,9 +72,29 @@ You will need to download the `libtorch` library
 from `https://download.pytorch.org/libtorch/cu90/libtorch-shared-with-deps-latest.zip`
 and copy all the relevant library files (the `*.so` files) to `NeuralE/CONTRIB/torcheval/libtorch/lib'.
 
-### Runing the scripts ###
+### Running the scripts ###
 
 The two bash scripts at the top level of `NeuralE`, namely  `run_bushy_neur_soft10s.sh` and
 `run_bushy_mzr02neur_soft10s.sh` each expect a tptp problem as a single argument.
 The first runs a strategy based solely on the learned model. The second combines the previously
 discovered strategy `mzr02` with the learned model as described in the paper.
+
+## How to train a new neural model ##
+
+### Prerequisities ###
+
+The scripts require Python 3. The sub-folder `NeuralTrain` contains
+the list of required modules in `requirements.txt` and these modules
+can be installed by calling `pip install -r requirements.txt`. For
+faster parsing use PyPy 3 (https://pypy.org/download.html) and the
+modules required by it are in `requirements-pypy.txt`. The script
+works also without PyPy 3, but preprocessing is much slower and still
+you need to install `lark-parser` by calling `pip install -r
+requirements-pypy.txt`.
+
+### Running the scripts ### 
+
+The sub-folder `NeuralTrain` contains a bash script that can be run by
+`bash learning.sh`. The newly generated model will be in the folder
+`model` and to replace the original model you have to copy the content
+of the folder to `NeuralE/PROVER/models/paper-2-1`.
