@@ -63,5 +63,18 @@ the scripts directly from the `CADE-19` directory, that is, like
 set to as in the case of LIBLINEAR.  Additionally set the environment
 variable `OMP_NUM_THREADS` to the value `1`.
 
-## How to run experiments with Torch ##
+## How to run experiments with LibTorch ##
 
+### Prerequisites ###
+
+The sub-folder `NeuralE` contains an executable of `E` extened to support neural guidance.
+You will need to download the `libtorch` library
+from `https://download.pytorch.org/libtorch/cu90/libtorch-shared-with-deps-latest.zip`
+and copy all the relevant library files (the `*.so` files) to `NeuralE/CONTRIB/torcheval/libtorch/lib'.
+
+### Runing the scripts ###
+
+The two bash scripts at the top level of `NeuralE`, namely  `run_bushy_neur_soft10s.sh` and
+`run_bushy_mzr02neur_soft10s.sh` each expect a tptp problem as a single argument.
+The first runs a strategy based solely on the learned model. The second combines the previously
+discovered strategy `mzr02` with the learned model as described in the paper.
