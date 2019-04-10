@@ -3,6 +3,7 @@
 This directory contains data for the paper "ENIGMA-NG: Efficient Neural and
 Gradient-Boosted Inference Guidance for E"
 (https://arxiv.org/abs/1903.03182) submitted to CADE'19 conference.
+The file `00new` contains the names of newly solved problems.
 
 ## Benchmark problems ##
 
