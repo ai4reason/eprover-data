@@ -96,6 +96,11 @@ requirements-pypy.txt`.
 ### Running the scripts ### 
 
 The sub-folder `NeuralTrain` contains a bash script that can be run by
-`bash learning.sh`. The newly generated model will be in the folder
-`model` and to replace the original model you have to copy the content
-of the folder to `NeuralE/PROVER/models/paper-2-1`.
+`bash learning.sh`. The newly generated model (after 50 epochs) will
+be in the folder `model` and to replace the original model you have to
+copy the content of the folder to
+`NeuralE/PROVER/models/paper-2-1`. Note that we save a model after
+every epoch of the training is completed. In fact, the model discussed
+in the paper is not the model generated after the last epoch (as here), but the
+one generated after 35 epochs; we randomly tested few of these models
+and selected the best performing one.
