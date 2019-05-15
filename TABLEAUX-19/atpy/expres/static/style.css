@@ -1,0 +1,43 @@
+
+html, body {
+   font-family: "DejaVu Sans", "Bitstream Vera Sans",
+             "Helvetica", "Arial", sans-serif;
+   font-size: 14px;
+   color: black;
+   background: white;
+   //background: #c1b398;
+   //background: #FBEEC2;
+   //background: #2B879E;
+}
+
+div.box { float: left; margin: 10px; }
+div.tables { display: flex; }
+
+table, th, td { 
+    border: 1px solid gray; 
+    padding: 2px 5px 2px 5px;
+    font-size: 90%;
+}
+
+table { border-collapse: collapse; }
+
+tr.ref { background: mediumseagreen; }
+tr.rel { background: darksalmon; }
+tr.sel { background: skyblue; }
+
+tr.hard { color: thistle; }
+tr.trivial { color: gray; }
+tr.easy { background: steelblue; }
+tr.normal { background: yellowgreen; }
+tr.unique { background: tomato; }
+
+td { min-width: 4em; }
+td.name { cursor: pointer; }
+
+th { 
+    text-align: left;
+    background: #F4D877;
+    font-size: 100%;
+    cursor: pointer;
+}
+
