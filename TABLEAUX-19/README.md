@@ -6,7 +6,7 @@ This directory contains data for the paper submitted to TABLEAUX'19 conference.
 
 Benchmark problems can be downloaded here:
 
-* [http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/MPTP2/problems_small_consist.tar.gz][Mizar40]
+* http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/MPTP2/problems_small_consist.tar.gz
 
 The problem names from the subset of the 5000 problems used in the experiments
 is provided in the file `problems.list`.
