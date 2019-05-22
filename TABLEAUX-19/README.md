@@ -5,7 +5,11 @@ This directory contains data for the paper submitted to TABLEAUX'19 conference.
 ## Benchmark problems ##
 
 Benchmark problems can be downloaded here:
-https://github.com/JUrban/MPTP2078 We used the bushy versions.
+
+* [http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/MPTP2/problems_small_consist.tar.gz][Mizar40]
+
+The problem names from the subset of the 5000 problems used in the experiments
+is provided in the file `problems.list`.
 
 ## How to run experiments with XGBoost ##
 
@@ -28,8 +32,5 @@ https://github.com/JUrban/MPTP2078 We used the bushy versions.
 
 ### Run scripts ###
 
-The scripts to run the experiments are provided in the `scripts`
-directory 
-
-TODO
+The scripts used to run the experiments are provided in the `scripts` directory.
 
